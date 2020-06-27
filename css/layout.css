@@ -1,0 +1,436 @@
+@import url("fonts.css");
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.top-header-block1 span {
+    color: #B4272D;
+    font-size: 16px;
+    font-family: barlow-extrabold, Arial, sans-serif;
+}
+
+.top-header-block2 {
+    display: flex;
+}
+
+.top-header-block2 .search {
+    margin-right: 30px;
+    font-family: barlow-medium, Arial, sans-serif;
+}
+
+.social-icons {
+    margin-right: 10px;
+}
+
+.header {
+    width: 100%;
+    background: #F3F3F3;
+}
+
+.header-block {
+    display: flex;
+    padding: 8px 0;
+}
+
+.header-block .navbar-nav {
+    list-style: none;
+}
+
+.navbar {
+    margin: 0;
+    min-height: min-content;
+    line-height: 30px;
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+.nav-link {
+    color: #4D4D4D;
+    font-family: barlow-bold, Arial, sans-serif;
+}
+
+.nav-item.active .nav-link {
+    color: #B4272D;
+    font-family: barlow-extrabold, Arial, sans-serif;
+}
+
+.main-block {
+    margin: 40px auto;
+}
+
+.img_1, .img_2, .img_3, .img_4 {
+    box-shadow: 0px 6px 12px #00000029;
+}
+
+.img_1 {
+    position: relative;
+    height: 600px;
+    background: url(../images/36175-67063-Apple_details-for-WWDC2020_06022020_bigjpglarge_2x-l.png) center center no-repeat black;
+}
+
+.img-content {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: 20px 30px;
+}
+
+.img-content-top {
+    color: white;
+    padding: 20px 30px;
+}
+
+.img-content-top .name {
+    color: #B4272D;
+    margin-bottom: 0;
+}
+
+.img-content h4 {
+    font-family: barlow-bold, Arial, sans-serif;
+}
+
+.img-content button {
+    font-family: barlow-medium, Arial, sans-serif;
+    min-width: 148px;
+    color: white;
+    border: none;
+    background: #B4272D;
+    padding: 5px 20px;
+    text-align: left;
+}
+
+.img_2 {
+    position: relative;
+    height: 285px;
+    margin-bottom: 30px;
+    background: url(../images/apple-store-covid-19-660x250.png) center center no-repeat;
+}
+
+.img_3 {
+    position: relative;
+    width: 50%;
+    height: 285px;
+    margin-right: 30px;
+    background: url(../images/ales-nesetril-Im7lZjxeLhg-unsplash.png) center center no-repeat black;
+    background-size: cover;
+}
+
+.img_4 {
+    position: relative;
+    width: 50%;
+    height: 285px;
+    background: url(../images/uriel-soberanes-MxVkWPiJALs-unsplash.png) center center no-repeat;
+}
+
+.trending-posts {
+    margin: 20px 0;
+}
+
+.top-news {
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.trending-posts, .most-viewed-title {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.top-news h2, .trending-posts h2, .most-viewed-title h2 {
+    position: relative;
+    font-family: barlow-bold, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 24px;
+}
+
+.top-news h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 83px;
+    height: 3px;
+    background-color: #B4272D;
+    margin: -10px auto;
+    display: block;
+}
+
+.top-news-block {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.top-news-block button {
+    border: none;
+    background: #B4272D;
+    font-family: barlow-bold, Arial, sans-serif;
+    color: white;
+    padding: 15px 50px;
+    margin-top: 20px;
+}
+
+.top-news-block-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.top-news-block-img {
+    width: 35%;
+    margin-right: 20px;
+}
+
+.top-news-block-img img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.top-news-block-text {
+    width: 65%;
+    margin-top: 5px;
+}
+
+.top-news-block-text h4, .trending-posts-block-text h4, .most-viewed-item h4 {
+    font-family: barlow-bold, Arial, sans-serif;
+}
+
+.trending-posts-block-text h4, .most-viewed-item h4 {
+    color: #B4272D;
+    font-size: 16px;
+}
+
+.trending-posts-block-text {
+    margin: 20px 0;
+}
+
+.top-news-block-text .text-top {
+    font-family: barlow-medium, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.top-news-block-text .text-top .fa-clock-o {
+    color:#B4272D;
+    margin-right: 5px;
+}
+
+.top-news-block-text .text-top span.text1 {
+    color: #B4272D;
+    margin-right: 5px;
+}
+
+.trending-posts-text-top .fa-clock-o {
+    color: black;
+    margin-right: 5px;
+}
+
+.trending-posts-text-top span.text1 {
+    color: black;
+    margin-right: 5px;
+}
+
+.top-news-block-text .text-top span.text2, .trending-posts-text-top span.text2 {
+    color: #606060;
+}
+
+.top-news-block-text a {
+    font-family: barlow-bold, Arial, sans-serif;
+    color: #B4272D;
+    text-decoration: underline;
+}
+
+.top-news-block-right {
+    background: #F3F3F3;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.trending-posts-bottom, .most-viewed-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.trending-posts-bottom-left .fa-heart, .most-viewed-bottom-left .fa-heart {
+    color: #B4272D;
+    margin-right: 5px;
+}
+
+.trending-posts-bottom-left .fa-comments, .most-viewed-bottom-left .fa-comments {
+    color: #4D4D4D;
+    margin-right: 5px;
+}
+
+.trending-posts-bottom-left span, .most-viewed-bottom-left span {
+    margin-right: 20px;
+}
+
+.trending-posts-bottom-right span, .most-viewed-bottom-right span {
+    font-family: barlow-bold, Arial, sans-serif;
+}
+
+.most-viewed-bottom-left i {
+    margin-right: 5px;
+}
+
+.most-viewed-bottom span, .trending-posts-bottom span {
+    font-family: barlow-bold, Arial, sans-serif;
+}
+
+.most-viewed {
+    margin-top: 40px;
+    padding: 0;
+}
+
+.most-viewed-item {
+    position: relative;
+}
+
+.most-viewed-item h4 {
+    margin-bottom: 20px;
+}
+
+.most-viewed-item::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 316px;
+    height: 1px;
+    background-color: #E4E4E4;
+    margin: -10px auto;
+    display: block;
+}
+
+.footer {
+    width: 100%;
+    background: #000000;
+    padding: 60px 0;
+    color: white;
+}
+
+.footer-title span {
+    color: #B4272D;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+    font-family: barlow-bold, Arial, sans-serif;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.footer-menu li span {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.footer-menu .social-icons {
+    background: #FF0000;
+    border-radius: 20%;
+    height: 26px;
+    width: 24px;
+    margin-right: 0;
+}
+
+.footer-menu .social-icons .fa-youtube-play {
+    color: black;
+    padding-top: 6px;
+    padding-left: 5px;
+}
+
+.footer-subscribe div {
+    margin-bottom: 20px;
+}
+
+.footer-subscribe input[type='email'] {
+    background: transparent;
+    border: 1px solid #B4272D;
+    padding: 10px;
+    width: 100%;
+    color: white;
+}
+
+.footer-subscribe button {
+    font-family: barlow-bold, Arial, sans-serif;
+    width: 100%;
+    background: #B4272D;
+    padding: 10px;
+    border: none;
+}
+
+.footer-bottom {
+    background: #3A3939;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px 0;
+}
+
+
+/* Item */
+
+.item-block-title {
+    font-family: barlow-bold, Arial, sans-serif;
+    color: #444444;
+    margin-bottom: 20px;
+}
+
+.item-block .text-top span {
+    margin-right: 10px;
+}
+
+.item-block .text-top {
+    margin-bottom: 20px;
+}
+
+.item-block-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.item-block-img {
+    display: flex;
+}
+
+.item-block-img div:not(:last-child) {
+    margin-right: 20px;
+}
+
+.comments-title {
+    font-family: barlow-bold, Arial, sans-serif;
+    margin-bottom: 40px;
+    color: #444444;
+    font-size: 24px;
+}
+
+.comments-block {
+    font-size: 16px;
+}
+
+.comments-block .name {
+    color: #6E6E6E;
+    font-family: barlow-semibold, Arial, sans-serif;
+}
+
+.comments-block .date {
+    color: #D4D4D4;
+    font-size: 14px;
+}
+
+.comments-block .replay {
+    color: #444444;
+    margin-top: 20px;
+}
