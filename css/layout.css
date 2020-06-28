@@ -162,6 +162,7 @@
 .top-news-block {
     padding-left: 0;
     margin-bottom: 20px;
+    padding-right: 30px;
 }
 
 .top-news-block button {
@@ -412,6 +413,9 @@
 .comments-title {
     font-family: barlow-bold, Arial, sans-serif;
     margin-bottom: 40px;
+}
+
+.comments-title h3 {
     color: #444444;
     font-size: 24px;
 }
@@ -433,4 +437,378 @@
 .comments-block .replay {
     color: #444444;
     margin-top: 20px;
+}
+
+.comments-block-bottom {
+    margin-top: 80px;
+}
+
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: 1px solid #D1D1D1;
+}
+
+.comment-form button {
+    background: #B4272D;
+    border: none;
+    padding: 10px 40px;
+    color: white;
+    font-family: barlow-bold, Arial, sans-serif;
+}
+
+.more-posts, .sponsored {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.more-posts > div:not(:last-child), .sponsored > div:not(:last-child) {
+    margin-right: 20px;
+}
+
+.more-posts-item {
+    background: #F3F3F3;
+}
+
+.more-posts-item > div {
+    padding: 20px 10px;
+}
+
+.more-posts-text-top {
+    margin-bottom: 5px;
+}
+
+.sponsored > div {
+    padding: 0;
+}
+
+.sponsored-block-text {
+    margin: 20px 0;
+}
+
+.sponsored-block-text h4 {
+    font-family: barlow-bold, Arial, sans-serif;
+    color: #444444;
+    font-size: 16px;
+}
+
+.sponsored-text-bottom {
+    color: #CCCCCC;
+    font-size: 14px;
+}
+
+.sponsored-text-bottom .text1 {
+    border-right: 1px solid;
+    padding-right: 8px;
+}
+
+.sponsored-text-bottom .text2 {
+    padding-left: 5px;
+}
+
+.reviews-more-posts-item {
+    background: #F3F3F3;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.top-news-block-text .stars {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-news-block-text .stars i:not(:last-child) {
+    margin-right: 5px;
+}
+
+.top-news-block-text .stars i {
+    color: #D8D8D8;
+}
+
+/* Review Post */
+
+.review-post-text-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-post-block h3 {
+    font-size: 24px;
+    font-family: barlow-bold, Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.specifications ul {
+    padding-left: 25px;
+}
+
+.specifications ul li {
+    font-family: barlow-medium, Arial, sans-serif;
+    margin-bottom: 9px;
+    font-size: 14px;
+}
+
+.specifications ul li:not(:last-child) {
+    border-bottom: 1px dashed #D5D5D5;
+    padding-bottom: 5px;
+}
+
+.specifications ul li {
+    color: #B4272D;
+}
+.specifications ul li span {
+    color: #4D4D4D;
+}
+
+.specifications-img-block, .specifications-list-block {
+    width: 50%;
+}
+
+.early-verdict-title {
+    font-family: barlow-bold, Arial, sans-serif;
+    font-size: 24px;
+    color: #B4272D;
+    margin-bottom: 20px;
+}
+
+.early-verdict-block {
+    background: #F3F3F3;
+    padding: 40px 80px;
+    margin-bottom: 30px;
+}
+
+.review-social {
+    display: flex;
+    margin: 40px 0;
+    padding-left: 0;
+}
+
+.early-verdict-block .fa-check {
+    color: #1A9207;
+    margin-right: 10px;
+}
+
+.early-verdict-block .fa-times {
+    color: #B4272D;
+    margin-right: 10px;
+}
+
+.early-verdict-item {
+    margin-bottom: 10px;
+}
+
+.early-verdict-button button {
+    font-family: barlow-bold, Arial, sans-serif;
+    border: none;
+    color: white;
+    background: #B4272D;
+    padding: 15px 40px;
+    margin-top: 30px;
+}
+
+.final-title {
+    font-family: barlow-bold, Arial, sans-serif;
+    font-size: 24px;
+    color: #4D4D4D;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.final-block {
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.final-button button {
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.buy-it, .dont-buy-it {
+    padding-left: 15px;
+}
+
+.buy-it li {
+    color: #1A9207;
+}
+
+.dont-buy-it li {
+    color: #B4272D;
+}
+
+.buy-it li div, .dont-buy-it li div {
+    color: #4D4D4D;
+}
+
+.comments-block .response {
+    display: flex;
+    border-left: 1px solid #707070;
+}
+
+/* Review Post 1 */
+
+.review-post-1-img-block {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.review-post-1-img-block1 {
+    padding-left: 0;
+}
+
+.review-post-1-img-block2 {
+    padding: 0;
+}
+
+.review-post-1-img-block3 {
+    padding-right: 0;
+}
+
+.review-post-1-img-block1 img:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.review-post-1-img-block3 > img {
+    margin-bottom: 20px;
+}
+
+.img-block3-1 {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.img-block3-2 {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.review-post-1-youtube {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.review-post-1-youtube-play {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    cursor: pointer;
+}
+
+.ol-list-block {
+    margin-bottom: 20px;
+}
+
+.ol-list-block-title {
+    font-family: barlow-bold, Arial, sans-serif;
+    color: #B4272D;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.ol-list-block ol {
+    padding-left: 20px;
+}
+
+.ol-list-block ol li {
+    color: #B4272D;
+    margin-bottom: 10px;
+}
+
+.ol-list-block ol li span {
+    color: #4D4D4D;
+    margin-left: 10px;
+}
+
+.review-post-list-block {
+    padding-left: 50px;
+}
+
+.comment-form-name {
+    padding-left: 0;
+}
+
+.comment-form-email {
+    padding-right: 0;
+}
+
+
+.mobile-menu button {
+    display: none;
+    position: absolute;
+    right: 0;
+}
+
+.navbar-collapse.mobile ul {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 1199px) {
+    .early-verdict-block {
+        padding: 20px;
+    }
+
+    .comment-form-email {
+        padding-left: 0;
+    }
+
+    .comment-form-name {
+        padding-right: 0;
+    }
+
+    .comments-block-bottom {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar.navbar-expand-lg.navbar-light.bg-light {
+        display: none;
+    }
+
+    .mobile-menu button {
+        display: block;
+    }
+
+    .review-post-list-block {
+        padding-left: 15px;
+    }
+
+    .sponsored {
+        display: block;
+    }
+
+    .review-post-1-img-block img {
+        height: auto !important;
+        margin-bottom: 20px !important;
+    }
+
+    .review-post-1-img-block div {
+        padding: 0 !important;
+    }
+
+    .sponsored-block-text h4, .comments-title h3, .trending-posts-block-text h4, .most-viewed-item h4, .ol-list-block-title {
+        font-size: 30px;
+    }
+
+    .top-news h2, .trending-posts h2, .most-viewed-title h2, .review-post-block h3 {
+        font-size: 40px;
+    }
+
+    .top-header-block1 span {
+        font-size: 30px;
+    }
+
+    .sponsored-text-bottom {
+        font-size: 20px;
+    }
+
+    .comments-block {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
 }
