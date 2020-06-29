@@ -9,14 +9,16 @@ hr {
     border-top: 1px solid #707070;
 }
 
-@media only screen and (min-width: 767px) and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
     body {
-        font-size: 24px;
+        font-size: 26px;
     }
-}
 
-@media only screen and (max-width: 767px) {
-    body {
+    .fa-2x {
         font-size: 30px;
+    }
+
+    .fa-4x {
+        font-size: 2em;
     }
 }

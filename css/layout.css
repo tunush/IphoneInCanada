@@ -24,6 +24,11 @@
     margin-right: 10px;
 }
 
+/*.top-header-block2 .social-icons .fa-youtube-play {*/
+    /*background: #444444;*/
+    /*border-radius: 20%;*/
+/*}*/
+
 .header {
     width: 100%;
     background: #F3F3F3;
@@ -338,19 +343,19 @@
     margin-left: 10px;
 }
 
-.footer-menu .social-icons {
-    background: #FF0000;
-    border-radius: 20%;
-    height: 26px;
-    width: 24px;
-    margin-right: 0;
-}
+/*.footer-menu .social-icons {*/
+    /*background: #FF0000;*/
+    /*border-radius: 20%;*/
+    /*height: 26px;*/
+    /*width: 24px;*/
+    /*margin-right: 0;*/
+/*}*/
 
-.footer-menu .social-icons .fa-youtube-play {
-    color: black;
-    padding-top: 6px;
-    padding-left: 5px;
-}
+/*.footer-menu .social-icons .fa-youtube-play {*/
+    /*color: black;*/
+    /*padding-top: 6px;*/
+    /*padding-left: 5px;*/
+/*}*/
 
 .footer-subscribe div {
     margin-bottom: 20px;
@@ -742,6 +747,29 @@
 .navbar-collapse.mobile ul {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+.navbar-collapse.mobile .nav-item {
+    margin-left: 50px;
+}
+
+.humburger-mobile {
+    background: transparent;
+    border: none;
+}
+
+.navbar-collapse.mobile {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: rgb(243, 243, 243);
+    border-top: 1px solid;
+    z-index: 10;
+    padding: 20px 0;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -762,7 +790,19 @@
     }
 }
 
-@media only screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
+    .header-block .logo img {
+        width: 200px !important;
+    }
+
+    .humburger-mobile {
+        margin-top: 5px;
+    }
+
+    .humburger-mobile i {
+        font-size: 50px;
+    }
+
     .navbar.navbar-expand-lg.navbar-light.bg-light {
         display: none;
     }
@@ -773,9 +813,11 @@
 
     .review-post-list-block {
         padding-left: 15px;
+        padding-top: 25px;
+        padding-bottom: 20px;
     }
 
-    .sponsored {
+    .sponsored, .more-posts {
         display: block;
     }
 
@@ -788,7 +830,8 @@
         padding: 0 !important;
     }
 
-    .sponsored-block-text h4, .comments-title h3, .trending-posts-block-text h4, .most-viewed-item h4, .ol-list-block-title {
+    .sponsored-block-text h4, .comments-title h3, .trending-posts-block-text h4, .most-viewed-item h4, .ol-list-block-title,
+    .footer-title span, .top-header-block1 span, .top-news-block-text h4, .trending-posts-block-text h4, .most-viewed-item h4 {
         font-size: 30px;
     }
 
@@ -796,19 +839,55 @@
         font-size: 40px;
     }
 
-    .top-header-block1 span {
-        font-size: 30px;
+    .sponsored-text-bottom, .comments-block p, .top-news-block-text .text-top {
+        font-size: 20px !important;
     }
 
-    .sponsored-text-bottom {
-        font-size: 20px;
+    .specifications ul li {
+        font-size: 26px !important;
     }
 
-    .comments-block {
-        font-size: 20px;
+    .footer-subscribe input[type='checkbox'] {
+        margin-top: 14px;
     }
-}
 
-@media only screen and (max-width: 767px) {
+    .top-news-block-item, .item-block-img.specifications {
+        flex-direction: column;
+    }
 
+    .top-news-block-img, .top-news-block-text, .specifications-img-block, .specifications-list-block {
+        width: 100%;
+    }
+
+    .top-news-block-text, .specifications-list-block {
+        margin-top: 40px;
+    }
+
+    .main-block .img_1 {
+        margin-bottom: 30px;
+    }
+
+    .main-block .img_2, .main-block .img_4 {
+        background-size: cover;
+    }
+
+    .main-block .img_2, .main-block .img_3, .main-block .img_4 {
+        height: 370px;
+    }
+
+    .early-verdict-button {
+        padding-left: 0;
+    }
+
+    .final-block > div:last-child {
+        padding-left: 0;
+    }
+
+    .review-post-text-top {
+        flex-direction: column;
+    }
+
+    .review-post-text-top .stars {
+        margin-bottom: 20px;
+    }
 }
