@@ -999,6 +999,10 @@
     margin-bottom: 32px;
 }
 
+.deal-post-imgs-block p {
+    color: #444444;
+}
+
 .deal-post-imgs-block1 {
     width: 50%;
     text-align: center;
