@@ -2,11 +2,21 @@
 @import url("font-awesome/css/font-awesome.min.css");
 
 body {
+    zoom: 70.5%;
     font-family: barlow-regular, Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
 }
 
 hr {
     border-top: 1px solid #707070;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 @media only screen and (max-width: 991px) {
@@ -20,5 +30,11 @@ hr {
 
     .fa-4x {
         font-size: 2em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1360px;
     }
 }
