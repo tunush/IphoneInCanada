@@ -1075,6 +1075,7 @@
 .about-us-text {
     margin-bottom: 40px !important; 
     margin-top: 42px !important;
+    color: #4D4D4D;
 }
 
 .about-us-text span, .about-us-block .advertising span {
@@ -1135,6 +1136,7 @@
 .advertise-text {
     margin-bottom: 32px !important;
     margin-top: 40px !important;
+    color: #4D4D4D;
 }
 
 .advertise-block-text {
@@ -1155,6 +1157,7 @@
 .advertise-block-item1 p, .advertise-block-item2 p {
     margin-bottom: 32px;
     font-size: 18px;
+    color: #4D4D4D;
 }
 
 .advertise-block-item2 .advertise-block-item2-block {
@@ -1172,6 +1175,10 @@
 
 .advertise-block-item2-block .text2 {
     font-size: 24px;
+}
+
+p.advertising {
+    color: #4D4D4D;
 }
 
 /*Contact Us */
