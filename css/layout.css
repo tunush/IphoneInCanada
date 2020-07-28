@@ -1182,6 +1182,7 @@
 
 .contact-us-block {
     width: 100%;
+    margin-bottom: 80px;
 }
 
 .contact-us-block .footer-subscribe {
@@ -1203,6 +1204,41 @@
     margin-bottom: 16px;
 }
 
+.contact-form-block {
+    padding: 40px 141px;
+    box-shadow: 0 0 9px #E5E5E4CC;
+}
+
+.contact-form h4 {
+    font-family: barlow-bold, Arial, sans-serif;
+    color: #4D4D4D;
+    font-size: 24px;
+    margin-bottom: 44px;
+    text-align: center;
+}
+
+.contact-form-block input, .contact-form-block textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #BDBDBD;
+    margin-bottom: 16px;
+}
+
+.contact-form-block label {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-family: barlow-semibold, Arial, sans-serif;
+    margin-left: 24px;
+}
+
+.contact-form-block button {
+    background: #B4272D;
+    font-family: barlow-bold, Arial, sans-serif;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
 
 
 @media only screen and (max-width: 1199px) {
