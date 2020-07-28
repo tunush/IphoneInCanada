@@ -1307,7 +1307,9 @@ p.advertising {
     }
 
     .sponsored-block-text h4, .comments-title h3, .trending-posts-block-text h4, .most-viewed-item h4, .ol-list-block-title,
-    .footer-title span, .top-header-block1 span, .top-news-block-text h4, .trending-posts-block-text h4, .most-viewed-item h4 {
+    .footer-title span, .top-header-block1 span, .top-news-block-text h4, .trending-posts-block-text h4, .most-viewed-item h4,
+    .about-us-block .advertising, .about-us-block .fill-block h4, .advertise-block-item1 p, .advertise-block-item2 p,
+    .contact-form h4 {
         font-size: 30px;
     }
 
@@ -1319,7 +1321,8 @@ p.advertising {
         font-size: 20px !important;
     }
 
-    .specifications ul li {
+    .specifications ul li, .item-block-text, .about-us-block .fill-block p, .about-us-block .fill-block button,
+    .contact-form-block label, .contact-form-block button {
         font-size: 26px !important;
     }
 
