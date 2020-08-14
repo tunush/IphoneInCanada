@@ -545,6 +545,76 @@
 }
 
 
+.home-page-top-block {
+    background: #DFDFDF;
+    width: 970px;
+    height: 250px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-page-before-trending-post {
+    background: #DFDFDF;
+    width: 300px;
+    height: 600px;
+    margin-bottom: 29px;
+}
+
+.home-page-top-new-block1 {
+    background: #DFDFDF;
+    width: 336px;
+    height: 280px;
+    margin: 40px auto;
+}
+
+.home-page-top-new-block2 {
+    background: #DFDFDF;
+    width: 300px;
+    height: 250px;
+    margin: 40px auto;
+}
+
+.home-page-after-subscribe {
+    background: #DFDFDF;
+    width: 160px;
+    height: 600px;
+    margin-top: 56px;
+    float: right;
+}
+
+.before-comment-block {
+    background: #DFDFDF;
+    width: 600px;
+    height: 300px;
+    margin: 24px auto 0 auto;
+}
+
+.home-page .col-lg-3 {
+    width: 22%;
+}
+
+.home-page .col-lg-9 {
+    width: 78%;
+}
+
+.home-page .top-news-block-text {
+    width: 65%;
+}
+
+.home-page .top-news {
+    margin-top: 56px;
+    margin-bottom: 42px;
+}
+
+.home-page .top-news-block-img {
+    width: 280px;
+}
+
+.home-page .top-news-block-item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
 /* Item */
 
 .post-main-block {
