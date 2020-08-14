@@ -1307,10 +1307,14 @@ p.advertising {
     }
 
     .sponsored-block-text h4, .comments-title h3, .trending-posts-block-text h4, .most-viewed-item h4, .ol-list-block-title,
-    .footer-title span, .top-header-block1 span, .top-news-block-text h4, .trending-posts-block-text h4, .most-viewed-item h4,
+    .footer-title span, .top-news-block-text h4, .trending-posts-block-text h4, .most-viewed-item h4,
     .about-us-block .advertising, .about-us-block .fill-block h4, .advertise-block-item1 p, .advertise-block-item2 p,
     .contact-form h4 {
-        font-size: 30px;
+        font-size: 46px;
+    }
+
+    .top-header-block1 span, .top-news-block-text p, .meet-the-team-block-item-desc .text2 {
+        font-size: 30px !important;
     }
 
     .top-news h2, .trending-posts h2, .most-viewed-title h2, .review-post-block h3 {
@@ -1318,13 +1322,17 @@ p.advertising {
     }
 
     .sponsored-text-bottom, .comments-block p, .top-news-block-text .text-top {
-        font-size: 20px !important;
+        font-size: 36px !important;
     }
 
-    .specifications ul li, .item-block-text, .about-us-block .fill-block p, .about-us-block .fill-block button,
-    .contact-form-block label, .contact-form-block button {
-        font-size: 26px !important;
+    .specifications ul li, .item-block-text, .about-us-block .fill-block p,
+    .contact-form-block label, .contact-form-block button, .about-us-block .fill-block button {
+        font-size: 36px !important;
     }
+
+    /*.about-us-block .fill-block button {*/
+        /*font-size: 26px !important;*/
+    /*}*/
 
     .footer-subscribe input[type='checkbox'] {
         margin-top: 14px;
@@ -1368,5 +1376,37 @@ p.advertising {
 
     .review-post-text-top .stars {
         margin-bottom: 20px;
+    }
+
+    .top-header-block2 .social-icons i, .most-viewed-item p, .comment-form button {
+        font-size: 36px;
+    }
+
+    .item-block-title h1 {
+        font-size: 60px;
+    }
+
+    .img-content, .img-content-top {
+        font-size: 25px !important;
+    }
+
+    .item-block .text-top span, .most-viewed-bottom-left span, .more-posts-text-top span, .meet-the-team-block-item-desc .text1 {
+        font-size: 32px;
+    }
+
+    .featured-stories {
+        padding-left: 0 !important;
+    }
+
+    .comments-block {
+        margin-top: 60px;
+    }
+
+    .about-us-block .advertising {
+        padding: 32px;
+    }
+
+    .advertise-block-item1 h4, .advertise-block-item2 h4 {
+        font-size: 50px;
     }
 }
